@@ -1,9 +1,16 @@
 {
+  "name": "tomrrorw-house",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "sass scss:css --watch",
-    "build": "sass scss:build --style=compressed --no-source-map"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dart-sass":"sass",
+    "sass":"sass --watch styles/_main.scss style.css"
   },
-  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "sass": "^1.83.1"
   }
