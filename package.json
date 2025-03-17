@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dart-sass":"sass",
-    "sass":"sass --watch styles/_main.scss style.css"
+    "dart-sass": "sass",
+    "sass": "sass --watch styles/main.scss ./style.css"
   },
   "keywords": [],
   "author": "",
